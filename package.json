@@ -2,7 +2,11 @@
   "name": "workstore-tokyo-do-wp-theme",
   "version": "0.0.0",
   "description": "WordPress Theme For Workstore Tokyo Do WEB Site.",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w-tokyodo/workstore-tokyo-do-wp-theme"
+  },
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,8 +18,5 @@
     "gulp-sourcemaps": "^2.4.1",
     "sass-basis": "^6.3.1",
     "yarn": "^0.21.3"
-  },
-  "dependencies": {
-    "node-normalize-scss": "^1.4.0"
   }
 }
